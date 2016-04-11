@@ -83,7 +83,6 @@ module.exports = function (grunt) {
       public: {
         src: "app/",
         dest: "docs/dist/public",
-        template: 'node_modules/ws-apidocjs-template',
         options: {
           parsers: {
             visibility: __dirname+"/docs/lib/parsers/visibility-parser.js"
@@ -94,7 +93,6 @@ module.exports = function (grunt) {
       private: {
         src: "app/",
         dest: "docs/dist/private",
-        template: 'node_modules/ws-apidocjs-template',
         options: {
           parsers: {
             visibility: __dirname+"/docs/lib/parsers/visibility-parser.js"

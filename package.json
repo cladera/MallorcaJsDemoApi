@@ -41,8 +41,7 @@
     "sinon": "^1.17.3",
     "superagent": "^1.8.2",
     "time-grunt": "^1.2.1",
-    "underscore": "^1.8.3",
-    "ws-apidocjs-template": "git+ssh://git@code.webcastudio.net:webcastudio-lab/ws-apidocjs-template.git#1.0.6"
+    "underscore": "^1.8.3"
   },
   "apidoc": {
     "url": "https://api.webcastudio.com/v1",
