@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = {
+  port: process.env.PORT || 80,
   cors: {
     origins: ['http://mjs-client.s3-website-us-east-1.amazonaws.com']
   },
