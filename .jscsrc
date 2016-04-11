@@ -1,0 +1,33 @@
+{
+  "preset": "google",
+  "plugins": [
+    "jscs-jsdoc"
+  ],
+  "jsDoc": {
+    "checkAnnotations": {
+      "preset": "jsdoc3",
+      "extra": {
+        "api": true,
+        "apiDefine": true,
+        "apiDescription": true,
+        "apiError": true,
+        "apiErrorExample": true,
+        "apiExample": true,
+        "apiGroup": true,
+        "apiHeader": true,
+        "apiHeaderExample": true,
+        "apiIgnore": true,
+        "apiName": true,
+        "apiParam": true,
+        "apiParamExample": true,
+        "apiPermission": true,
+        "apiSampleRequest": true,
+        "apiSuccess": true,
+        "apiSuccessExample": true,
+        "apiUse": true,
+        "apiVersion": true,
+        "visibility": true
+      }
+    }
+  }
+}
